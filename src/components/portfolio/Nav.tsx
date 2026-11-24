@@ -50,7 +50,7 @@ export function Nav() {
 
       <a
         href="#contact"
-        className="flex items-center gap-2 rounded-full bg-ink py-1.5 pr-5 pl-1.5 text-sm font-medium text-background transition-transform hover:-translate-y-0.5"
+        className="hidden md:flex items-center gap-2 rounded-full bg-ink py-1.5 pr-5 pl-1.5 text-sm font-medium text-background transition-transform hover:-translate-y-0.5"
       >
         <span className="flex size-8 items-center justify-center rounded-full bg-accent text-accent-foreground">
           +

@@ -28,13 +28,13 @@ export function Process() {
     <section className="px-6 py-20 md:px-12">
       <SectionHeader index="05" label="Methodology" right="How I Work" />
 
-      <div className="mt-12 grid gap-10 md:grid-cols-[1fr_460px] md:items-end reveal-on-scroll">
+      <div className="mt-12 grid grid-cols-1 gap-10 md:grid-cols-[1fr_460px] md:items-end reveal-on-scroll">
         <h2 className="text-6xl md:text-8xl">
           My Development
           <br />
           Process
         </h2>
-        <p className="text-lg leading-snug">
+        <p className="hidden md:block text-lg leading-snug">
           From understanding your vision to delivering reliable digital solutions, I follow a structured development process focused on <b>quality, performance,</b> and user experience.
         </p>
       </div>
