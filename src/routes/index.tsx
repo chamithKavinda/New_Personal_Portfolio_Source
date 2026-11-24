@@ -34,7 +34,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen w-full overflow-x-clip">
       <SmoothScroll />
       <Nav />
       <div style={{ backgroundImage: "var(--gradient-hero)" }}>

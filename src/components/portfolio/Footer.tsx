@@ -36,8 +36,8 @@ const socialLinks = [
 export function Footer() {
   return (
     <footer id="contact" className="bg-ink px-6 pt-24 pb-10 text-background md:px-12">
-      <div className="grid gap-12 md:grid-cols-[1fr_1fr]">
-        <div className="reveal-on-scroll">
+      <div className="grid gap-12 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+        <div className="min-w-0 reveal-on-scroll">
           <p className="font-mono text-xs tracking-[0.18em] uppercase opacity-60">
             Lets talk
           </p>
@@ -51,7 +51,7 @@ export function Footer() {
           </a>
           <a
             href="mailto:chamith13kavinda@gmail.com"
-            className="mt-3 block text-3xl font-extrabold tracking-tight uppercase md:text-5xl"
+            className="mt-3 block break-all text-[clamp(12px,4.2vw,18px)] font-extrabold tracking-tight uppercase md:text-3xl lg:text-5xl"
           >
             chamith13kavinda@gmail.com
           </a>
